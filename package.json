@@ -1,0 +1,39 @@
+{
+  "name": "rn-root-checker",
+  "version": "0.0.1",
+  "description": "Check if it's a rooted device using Turbo Native Modules",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "rtn-root-checker.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": ["react-native", "ios", "android"],
+  "repository": "https://github.com/thorugoh/rtn-root-checker",
+  "author": "Victor Hugo hugo.victoor77@gmail.com (https://github.com/thorugoh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thorugoh/rtn-root-checker/issues"
+  },
+  "homepage": "https://github.com/thorugoh/rtn-root-checker#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RNRootChecker",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.rnrootchecker"
+    }
+  }
+}
