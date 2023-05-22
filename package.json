@@ -16,13 +16,13 @@
     "!**/__mocks__"
   ],
   "keywords": ["react-native", "ios", "android"],
-  "repository": "https://github.com/thorugoh/rtn-root-checker",
+  "repository": "https://github.com/thorugoh/RootChecker",
   "author": "Victor Hugo hugo.victoor77@gmail.com (https://github.com/thorugoh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thorugoh/rtn-root-checker/issues"
+    "url": "https://github.com/thorugoh/RootChecker/issues"
   },
-  "homepage": "https://github.com/thorugoh/rtn-root-checker#readme",
+  "homepage": "https://github.com/thorugoh/RootChecker#readme",
   "devDependencies": {},
   "peerDependencies": {
     "react": "*",
